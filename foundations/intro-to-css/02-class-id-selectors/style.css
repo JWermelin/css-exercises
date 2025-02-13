@@ -1,0 +1,22 @@
+.one {
+    color:rgb(0, 0, 0);
+    background-color: rgba(218, 141, 228, 0.41);
+    font-family:Verdana, sans-serif;
+    }
+
+.byt-storlek {
+    color:rgb(0, 0, 0);
+    font-size: 24px;
+    }
+
+#two {
+    color:#0000ff;
+    font-size:36px;
+    }
+
+#three {
+    color:rgb(0, 0, 0);
+    background-color:rgb(153, 249, 173);
+    font-weight: bolder;
+    font-family:Verdana, sans-serif;
+    }
