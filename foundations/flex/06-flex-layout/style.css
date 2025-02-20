@@ -5,10 +5,23 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex;
+  align-items:normal;
+  flex-direction:column;
+  justify-content:space-between;
 }
 
 img {
   width: 600px;
+}
+
+ul, ol {
+  list-style:none;
+}
+
+a {
+  text-decoration:none;
+  color:black;
 }
 
 button {
@@ -23,4 +36,19 @@ input {
   border-radius: 16px;
   padding: 8px 24px;
   width: 400px;
+}
+
+.header, .footer {
+  display:flex;
+  justify-content:space-between;
+}
+
+.footer {
+background-color:grey;
+
+}
+
+.content {
+  text-align:center;
+
 }
